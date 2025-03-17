@@ -123,6 +123,12 @@
       outline-color: rgba(44, 118, 246, 0.6);
     }
   }
+  
+  a[href^="/misc/glossary"] {
+    color: $dark-lexic-link !important;
+	text-decoration: underline !important;
+	text-decoration-color: $dark-lexic-link !important;
+  }
 
   // List
   li {

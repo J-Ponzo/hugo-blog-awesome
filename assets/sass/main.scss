@@ -16,6 +16,8 @@ $smoke: #d2c7c7;
 $gray: #6b7886;
 $white: #fff;
 
+$lexic-link: $text-base-color;
+
 //////////////// 2. Dark Colors /////////////////
 $dark-text-base-color: #babdc4;
 $dark-text-link-blue: #77a8fd;
@@ -33,6 +35,8 @@ $dark-white: #eaeaea;
 $dark-light: #1b1d25;
 $dark-smoke: #4a4d56;
 $dark-gray: #767f87;
+
+$dark-lexic-link: $dark-text-base-color;
 
 //////////////// 3. Fonts preferences /////////////////
 $sans-family: Roboto, sans-serif;
