@@ -202,7 +202,7 @@ a {
   }
 }
 
-a[href^="/pages/glossary"] {
+article a[href^="/pages/glossary"] {
     color: $lexic-link !important;
 	text-decoration: underline !important;
 	text-decoration-color: $lexic-link !important;
