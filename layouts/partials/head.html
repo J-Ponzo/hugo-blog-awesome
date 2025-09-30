@@ -51,4 +51,7 @@
     {{ if templates.Exists "partials/custom-head.html" }}
       {{ partial "custom-head.html" . }}
     {{ end }}
+	
+	{{ $togglecode := resources.Get "css/togglecode.css" | minify | fingerprint }}
+	<link rel="stylesheet" href="{{ $togglecode.Permalink }}">
 </head>
