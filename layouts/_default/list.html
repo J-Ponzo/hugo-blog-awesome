@@ -4,7 +4,8 @@
         <h1 class="header-title center">{{ .Title }}</h1>
     </header>
     <main class="page-content" aria-label="Content">
-        {{ range .Pages.GroupByDate "2006" }}
+		{{ $visiblePages := where .Pages "Params.hidden" "ne" true }}
+		{{ range $visiblePages.GroupByDate "2006" }}
         {{ $year := .Key }}
         <h2 class="post-year">{{ $year }}</h2>
 
